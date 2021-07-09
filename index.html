@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testing</title>
+
+  <script>
+    var scripts = new Array();
+    scripts[0] = "PHP";
+    scripts[1] = "ASP";
+    scripts[2] = "JavaScript";
+    scripts[3] = "HTML";
+    
+    /*for (var key in scripts) {
+      document.write("key : " + key + "  =>value: " + scripts[key] + "<br>");
+    }*/
+
+    //alert(scripts.toString());
+
+    /*var str=scripts.join(" : ");
+    document.write(str);*/
+   document.write(scripts.join(" <br> "));
+
+    function showPolicy(){
+        var link = 'www.parkingcrew.net';
+        policywnd = window.open(
+                'http://' + link + '/privacy.html','pcrew_policy','width=890,height=330,left=200,top=200,menubar=no,status=yes,toolbar=no');
+        policywnd.focus();
+    }
+
+    </script>
+</head>
+<body>
+  <a href="javascript:void(0);" onClick="showPolicy();">Privacy Policy</a>
+</body>
+</html>
