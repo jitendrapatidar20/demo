@@ -1,0 +1,11 @@
+1. git config --global user.name "Jitendra Patidar"
+2. git config --global user.email  "jitendrapatidar.mca@gmail.com" 
+3. git init   
+4. git add [filename] || -A
+5. git status
+6. git commit -m "msg"
+7. git remote add origin <repositry url>
+8. git push origin master
+
+9. git clone reponame
+10 git pull origin master
